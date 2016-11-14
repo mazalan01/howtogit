@@ -2,6 +2,13 @@
 
 using namespace std;
 
+void ir(){
+    for(int i=0;i<=100;i++){
+        if(i==1)cout<<"1";
+        else cout<<i;
+    }
+}
+
 void buzz(){
     for(int i=0;i<=100;i++){
         if(i%4==0)cout<<"Buzz"<<endl;
