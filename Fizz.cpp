@@ -2,6 +2,13 @@
 
 using namespace std;
 
+void buzz(){
+    for(int i=0;i<=100;i++){
+        if(i%4==0)cout<<"Buzz"<<endl;
+        else cout<<i<<endl;
+    }
+}
+
 int main(){
     for(int i=0;i<=100;i++){
         if(i%3==0){
