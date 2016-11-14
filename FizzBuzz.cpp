@@ -9,6 +9,10 @@ void buzz(){
     }
 }
 
+void irni(){
+cout<<"HAHA";
+}
+
 int main(){
     for(int i=0;i<=100;i++){
         if(i%3==0){
